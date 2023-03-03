@@ -1,1 +1,1 @@
-# figma-business-langing
+# figma-business-landing-page
