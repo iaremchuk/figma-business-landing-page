@@ -14,35 +14,40 @@
 
 <body>
     <header class="header">
-        <img class="header__logo" src="img/logo.png" alt="Logo">
-        <h1 class="header__title">The best products start with Figma</h1>
-        <p class="header__introduction">Most calendars are designed for teams.</p>
-        <a class="try-for-free-link" href="#">Try For Free</a>
+        <div class="header__navigation container">
+            <img class="header__logo" src="img/logo.png" alt="Logo">
+            <div class="header__menu"></div>
+        </div>
+        <div class="header__content container">
+            <h1 class="header__title">The best products start with Figma</h1>
+            <p class="header__introduction">Most calendars are designed for teams.</p>
+            <a class="try-for-free-btn" href="#">Try For Free</a>
+        </div>
     </header>
     <main>
-        <section class="features">
+        <section class="features container">
             <h2 class="features__title">Features</h2>
             <p class="features__introduction">Most calendars are designed for teams.</p>
             <img class="features__image" src="img/screen.png" alt="Screen">
             <div class="features__description">
-                <div class="features__description element">
-                    <img class="element__image" src="img/shapes.png" alt="Shapes">
-                    <h3 class="element__title">OpenType features Variable fonts</h3>
-                    <p class="element__text">Slate helps you see how many more days you need to work to
+                <div class="features__card card">
+                    <img class="card__image" src="img/shapes.png" alt="Shapes">
+                    <h3 class="card__title">OpenType features Variable fonts</h3>
+                    <p class="card__text">Slate helps you see how many more days you need to work to
                         reach
                         your financial goal.</p>
                 </div>
-                <div class="features__description element">
-                    <img class="element__image" src="img/pen.png" alt="Pen">
-                    <h3 class="element__title">Design with real data</h3>
-                    <p class="element__text">Slate helps you see how many more days you need to work to
+                <div class="features__card card">
+                    <img class="card__image" src="img/pen.png" alt="Pen">
+                    <h3 class="card__title">Design with real data</h3>
+                    <p class="card__text">Slate helps you see how many more days you need to work to
                         reach
                         your financial goal.</p>
                 </div>
-                <div class="features__description element">
-                    <img class="element__image" src="img/brush.png" alt="Brush">
-                    <h3 class="elemen__title">Fastest way to take action</h3>
-                    <p class="element__text">Slate helps you see how many more days you need to work to reach
+                <div class="features__card card">
+                    <img class="card__image" src="img/brush.png" alt="Brush">
+                    <h3 class="card__title">Fastest way to take action</h3>
+                    <p class="card__text">Slate helps you see how many more days you need to work to reach
                         your financial goal.</p>
                 </div>
             </div>

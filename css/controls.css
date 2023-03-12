@@ -1,0 +1,13 @@
+.try-for-free-btn{
+    width: 236px;
+    height: 60px;
+    background: var(--btn-background-color);
+    display: block;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    margin: auto;
+    color: var(--main-color);
+}
