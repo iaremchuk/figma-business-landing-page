@@ -1,6 +1,6 @@
 .newsletter {
     width: 100%;
-    min-height: 1105;
+    min-height: 1105px;
     border: 1px solid #000;
 }
 
@@ -28,7 +28,7 @@
 
 .newsletter__description {
     width: 400px;
-    height: 80px;
+    min-height: 80px;
     font-size: 28px;
     line-height: 40px;
     text-align: center;
@@ -58,6 +58,15 @@
     margin: 10px auto 34px;
 }
 
+.subscribtion__subscribe {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-bottom: 114px;
+}
+
 .subscribtion__email {
     width: 353px;
     height: 54px;
@@ -75,5 +84,5 @@
     background: var(--btn-background-color);
     color: var(--main-color);
     border-radius: 35px;
-    outline: none;
+    border: none;
 }
