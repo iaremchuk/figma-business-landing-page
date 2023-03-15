@@ -1,12 +1,9 @@
 .partners {
-    width: 100%;
     min-height: 1060px;
     border: 1px solid #000;
 }
 
 .partners__title {
-    width: 188px;
-    height: 55px;
     font-size: 48px;
     line-height: 55px;
     text-align: center;
@@ -16,8 +13,6 @@
 }
 
 .partners__description {
-    width: 400px;
-    min-height: 80px;
     font-size: 28px;
     line-height: 40px;
     text-align: center;

@@ -1,13 +1,10 @@
 .newsletter {
-    width: 100%;
     min-height: 1105px;
     border: 1px solid #000;
 }
 
 .newsletter__heading,
 .subscribtion__title {
-    width: 173px;
-    height: 28px;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -27,7 +24,6 @@
 }
 
 .newsletter__description {
-    width: 400px;
     min-height: 80px;
     font-size: 28px;
     line-height: 40px;
@@ -38,51 +34,49 @@
 }
 
 .newsletter__image {
-    height: 273px;
-    width: 400px;
+    width: 90%;
     margin: auto;
 }
 
 .subscribtion__title {
-    width: 276px;
     margin-top: 92px;
 }
 
 .subscribtion__exclusive {
-    width: 301px;
-    height: 25px;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.2px;
     color: var(--text-color);
+    text-align: center;
     margin: 10px auto 34px;
 }
 
 .subscribtion__subscribe {
+    width: 95%;
     height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: column wrap;
-    margin-bottom: 114px;
+    margin: 0 auto 114px;
+}
+
+.subscribtion__email,
+.subscribtion__button {
+    width: 300px;
+    height: 54px;
+    border-radius: 39px;
+    padding: 19px 35px;
 }
 
 .subscribtion__email {
-    width: 353px;
-    height: 54px;
     background: #F4F4F4;
     border: 1px solid #E8E8E8;
-    border-radius: 39px;
-    padding: 19px 35px;
     color: var(--place-holder-color);
 }
 
 .subscribtion__button {
-    padding: 17px 35px;
-    width: 353px;
-    height: 54px;
     background: var(--btn-background-color);
     color: var(--main-color);
-    border-radius: 35px;
     border: none;
 }

@@ -1,12 +1,9 @@
 .organize {
-    width: 100%;
     min-height: 800px;
     border: 1px solid #000;
 }
 
 .organize__title {
-    width: 335px;
-    height: 110px;
     font-size: 48px;
     line-height: 55px;
     text-align: center;
@@ -16,8 +13,6 @@
 }
 
 .organize__description {
-    width: 265px;
-    height: 80px;
     font-size: 28px;
     line-height: 40px;
     text-align: center;
@@ -26,7 +21,7 @@
 }
 
 .organize__image {
-    width: 292px;
-    height: 182px;
+    width: 90%;
+    min-height: 182px;
     margin: 75px auto 0;
 }

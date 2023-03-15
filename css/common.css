@@ -1,10 +1,10 @@
 @font-face {
     font-family: mainHeebo;
-    src: url(/fonts/Heebo-Thin.ttf);
+    src: url(../fonts/Heebo-Thin.ttf);
   }
   @font-face {
     font-family: boldHeebo;
-    src: url(/fonts/Heebo-Bold.ttf);
+    src: url(../fonts/Heebo-Bold.ttf);
   }
 
 * {
@@ -20,6 +20,8 @@
     --main-background-color:  #FFFFFF;
     --accent-background-color: #252B42;
     --btn-background-color: #2091F9;
+    --pricing-element-background-color: #2091F9;
+    --contacts-border-color: #DDDDDD;
     font-family: 'mainHeebo', sans-serif;
     scroll-behavior: smooth;
 }

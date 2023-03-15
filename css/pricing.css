@@ -1,0 +1,52 @@
+.pricing {
+    min-height: 2430px;
+    background-color: var(--accent-background-color);
+    padding-top: 120px;
+    padding-bottom: 118px;
+}
+
+.pricing__title {
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--main-color);
+}
+
+.pricing__description {
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--main-color);
+    margin-top: 27px;
+}
+
+.pricing__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    min-height: 1900px;
+    margin-top: 100px;
+}
+
+.pricing__plan {
+    width: 90%;
+    height: 607px;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 30px 50px 85px auto 55px;
+    padding: 40px;
+}
+
+.pricing__plan:first-child,
+.pricing__plan:last-child {
+    background-color: var(--main-background-color);
+}
+
+.pricing__plan:nth-child(2) {
+    background-color: var(--pricing-element-background-color);
+    color: var(--main-color);
+}

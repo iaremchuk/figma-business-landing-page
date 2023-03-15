@@ -96,7 +96,7 @@
             </div>
             <a class="try-for-free-btn" href="#">Try For Free</a>
         </section>
-        <section class="testimonials">
+        <section class="testimonials container">
             <h2 class="testimonials__title">Testimonials</h2>
             <img class="testimonials__image" src="img/ibm.png" alt="IBM">
             <p class="testimonials__description">Most calendars are designed for teams. Slate is designed for
@@ -110,9 +110,9 @@
             <a class="testimonials__link" href="#">More Testimonials</a>
         </section>
         <section class="pricing">
-            <h2 class="pricing__title"> Pricing</h2>
-            <p class="pricing__description">Most calendars are designed for teams.</p>
-            <div class="pricing__options">
+            <h2 class="pricing__title container"> Pricing</h2>
+            <p class="pricing__description container">Most calendars are designed for teams.</p>
+            <div class="pricing__options container">
                 <div class="pricing__plan plan">
                     <h3 class="plan__name">FREE</h3>
                     <p class="plan__description">Organize across all apps by hand</p>
@@ -154,40 +154,42 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts container">
             <h2 class="contacts__title">Contact Us</h2>
             <p class="contacts__description">Most calendars are designed for teams.
             <p>
-            <div class="contacts__media media">
-                <a class="media__logo" target="_blank" href="https://twitter.com"><img src="img/twitter.png"
-                        alt="Twitter Logo"></a>
-                <a class="media__logo" target="_blank" href="https://facebook.com"><img src="img/facebook.png"
-                        alt="Facebook Logo"></a>
-                <a class="media__logo" target="_blank" href="https://linkedin.com"><img src="img/linkedin.png"
-                        alt="LinkedIn Logo"></a>
-            </div>
-            <ul class="contacts__type">
-                <li class="contacts__detail detail">
-                    <img class="detail__img" src="img/location.png" alt="Location">
-                    <p class="detail__text">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
-                </li>
-                <li>
-                    <img class="detail__img" src="img/phone.png" alt="Phone">
-                    <p class="detail__text">(843) 555-0130</p>
-                </li>
-                <li>
-                    <img class="detail__img" src="img/email.png" alt="Email">
-                    <p class="detail__text">willie.jennings@example.com</p>
-                </li>
-            </ul>
-            <div class="contacts__data data">
-                <h3 class="data__title">Contact Us</h3>
-                <form class="data__user user" action="contact">
-                    <input class="user__name" type="text" placeholder="Your Name" required>
-                    <input class="user__email" type="text" placeholder="Your Email" required>
-                    <textarea class="user__message" name="" placeholder="Your Message"></textarea>
-                    <button class="user__send" type="submit">Send</button>
-                </form>
+            <div class="contacts__content">
+                <div class="contacts__media media">
+                    <a target="_blank" href="https://twitter.com"><img class="media__logo" src="img/twitter.png"
+                            alt="Twitter Logo"></a>
+                    <a target="_blank" href="https://facebook.com"><img class="media__logo" src="img/facebook.png"
+                            alt="Facebook Logo"></a>
+                    <a target="_blank" href="https://linkedin.com"><img class="media__logo" src="img/linkedin.png"
+                            alt="LinkedIn Logo"></a>
+                </div>
+                <ul class="contacts__type">
+                    <li class="contacts__detail detail">
+                        <img class="detail__img" src="img/location.png" alt="Location">
+                        <p class="detail__text">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+                    </li>
+                    <li class="contacts__detail detail">
+                        <img class="detail__img" src="img/phone.png" alt="Phone">
+                        <p class="detail__text">(843) 555-0130</p>
+                    </li>
+                    <li class="contacts__detail detail">
+                        <img class="detail__img" src="img/email.png" alt="Email">
+                        <p class="detail__text">willie.jennings@example.com</p>
+                    </li>
+                </ul>
+                <div class="contacts__data data">
+                    <h3 class="data__title">Contact Us</h3>
+                    <form class="data__user user" action="contact">
+                        <input class="user__name" type="text" placeholder="Your Name" required>
+                        <input class="user__email" type="text" placeholder="Your Email" required>
+                        <textarea class="user__message" name="" placeholder="Your Message"></textarea>
+                        <button class="user__send" type="submit">Send</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>

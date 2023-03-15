@@ -1,7 +1,6 @@
 .header {
-    width: 100%;
     min-height: 850px;
-    background-image: url(/img/people-working-on-macbook.png);
+    background-image: url(../img/people-working-on-macbook.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,7 +23,10 @@
     height: 16px;
     border: 1px solid var(--main-color);
 }
-
+.header__content{
+    width: 95%;
+    margin: auto;
+}
 .header__title,
 .header__introduction {
     text-align: center;
@@ -35,14 +37,12 @@
 .header__title {
     line-height: 55px;
     font-size: 48px;
-    width: 330px;
     margin: 117px auto 27px;
 }
 
 .header__introduction {
     font-size: 28px;
     line-height: 40px;
-    width: 365px;
     margin: 0 auto 69px;
 }
 
