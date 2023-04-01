@@ -15,8 +15,23 @@
 <body>
     <header class="header">
         <div class="header__navigation container">
+            <nav class="header__menu menu">
+                <a href="#" class="menu__link">Home</a>
+                <a href="#features" class="menu__link">Product</a>
+                <a href="#pricing" class="menu__link">Pricing</a>
+                <a href="#about" class="menu__link">About</a>
+                <a href="#contact" class="menu__link">Contact</a>
+            </nav>
             <img class="header__logo" src="img/logo.png" alt="Logo">
-            <div class="header__menu"></div>
+            <div class="header__burger"></div>
+            <div class="header__social">
+                <a class="social__logo" target="_blank" href="https://twitter.com"><img src="img/twitter-white.png"
+                        alt="Twitter Logo In White"></a>
+                <a class="social__logo" target="_blank" href="https://facebook.com"><img src="img/facebook-white.png"
+                        alt="Facebook Logo In White"></a>
+                <a class="social__logo" target="_blank" href="https://linkedin.com"><img src="img/linkedin-white.png"
+                        alt="LinkedIn Logo In White"></a>
+            </div>
         </div>
         <div class="header__content container">
             <h1 class="header__title">The best products start with Figma</h1>
@@ -25,11 +40,11 @@
         </div>
     </header>
     <main>
-        <section class="features container">
-            <h2 class="features__title">Features</h2>
-            <p class="features__introduction">Most calendars are designed for teams.</p>
-            <img class="features__image" src="img/screen.png" alt="Screen">
-            <div class="features__description">
+        <section class="features">
+            <h2 class="features__title container" id="features">Features</h2>
+            <p class="features__introduction container">Most calendars are designed for teams.</p>
+            <img class="features__image container" src="img/screen.png" alt="Screen">
+            <div class="features__description container">
                 <div class="features__card card">
                     <img class="card__image" src="img/shapes.png" alt="Shapes">
                     <h3 class="card__title">OpenType features Variable fonts</h3>
@@ -52,19 +67,22 @@
                 </div>
             </div>
         </section>
-        <section class="organize container">
-            <h2 class="organize__title">Fastest way to organize</h2>
-            <p class="organize__description">Most calendars are designed for teams.</p>
-            <a class="try-for-free-btn" href="#">Try For Free</a>
-            <img class="organize__image" src="img/macbook.png" alt="Mac Book">
+        <section class="organize">
+            <div class="organize__container container" id="about">
+                <h2 class="organize__title">Fastest way to organize</h2>
+                <p class="organize__description">Most calendars are designed for teams.</p>
+                <a class="try-for-free-btn" href="#">Try For Free</a>
+                <img class="organize__image" src="img/macbook.png" alt="Mac Book">
+            </div>
         </section>
-        <section class="newsletter container">
-            <p class="newsletter__heading">At your fingertips</p>
-            <h2 class="newsletter__title">Newsletter</h2>
-            <p class="newsletter__description">Most calendars are designed for teams. Slate is designed for freelancers
+        <section class="newsletter">
+            <p class="newsletter__heading container">At your fingertips</p>
+            <h2 class="newsletter__title container">Newsletter</h2>
+            <p class="newsletter__description container">Most calendars are designed for teams. Slate is designed for
+                freelancers
             </p>
-            <img class="newsletter__image" src="img/newsletter.png" alt="Newsletter">
-            <div class="newsletter__subscribtion subscribtion">
+            <img class="newsletter__image container" src="img/newsletter.png" alt="Newsletter">
+            <div class="newsletter__subscribtion subscribtion container">
                 <h3 class="subscribtion__title">Subscribe to our Newsletter</h3>
                 <p class="subscribtion__exclusive">Available exclusivery on Figmaland</p>
                 <form action="subscribe" class="subscribtion__subscribe">
@@ -73,11 +91,12 @@
                 </form>
             </div>
         </section>
-        <section class="partners container">
-            <h2 class="partners__title">Partners</h2>
-            <p class="partners__description">Most calendars are designed for teams. Slate is designed for freelancers
+        <section class="partners">
+            <h2 class="partners__title container">Partners</h2>
+            <p class="partners__description container">Most calendars are designed for teams. Slate is designed for
+                freelancers
             </p>
-            <div class="partners__content">
+            <div class="partners__content container">
                 <div class="partners__info box">
                     <p class="box__title">Client Name</p>
                     <a class="box__logo" target="_blank" href="https://www.google.com"><img class="box__logo"
@@ -94,23 +113,23 @@
                             alt="Microsoft Logo"></a>
                 </div>
             </div>
-            <a class="try-for-free-btn" href="#">Try For Free</a>
+            <a class="try-for-free-btn container" href="#">Try For Free</a>
         </section>
-        <section class="testimonials container">
-            <h2 class="testimonials__title">Testimonials</h2>
-            <img class="testimonials__image" src="img/ibm.png" alt="IBM">
-            <p class="testimonials__description">Most calendars are designed for teams. Slate is designed for
+        <section class="testimonials">
+            <h2 class="testimonials__title container">Testimonials</h2>
+            <img class="testimonials__image container" src="img/ibm.png" alt="IBM">
+            <p class="testimonials__description container">Most calendars are designed for teams. Slate is designed for
                 freelancers who want a simple way to plan their
                 schedule.</p>
-            <div class="testimonials__profile profile">
+            <div class="testimonials__profile profile container">
                 <img class="profile__picture" src="img/designer.png" alt="Designer Profile Picture">
                 <p class="profile__title">Organize across</p>
                 <p class="profile__position">Ui designer</p>
             </div>
-            <a class="testimonials__link try-for-free-btn" href="#">More Testimonials</a>
+            <a class="testimonials__link try-for-free-btn container" href="#">More Testimonials</a>
         </section>
         <section class="pricing">
-            <h2 class="pricing__title container"> Pricing</h2>
+            <h2 class="pricing__title container" id="pricing"> Pricing</h2>
             <p class="pricing__description container">Most calendars are designed for teams.</p>
             <div class="pricing__options container">
                 <div class="pricing__plan plan">
@@ -166,11 +185,11 @@
                 </div>
             </div>
         </section>
-        <section class="contacts container">
-            <h2 class="contacts__title">Contact Us</h2>
-            <p class="contacts__description">Most calendars are designed for teams.
+        <section class="contacts">
+            <h2 class="contacts__title container" id="contact">Contact Us</h2>
+            <p class="contacts__description container">Most calendars are designed for teams.
             <p>
-            <div class="contacts__content">
+            <div class="contacts__content container">
                 <div class="contacts__media media">
                     <a target="_blank" href="https://twitter.com"><img class="media__logo" src="img/twitter.png"
                             alt="Twitter Logo"></a>
@@ -206,7 +225,7 @@
         </section>
     </main>
     <footer class="footer">
-        <ul class="footer__professionals">
+        <ul class="footer__professionals container">
             <li>Annette Steward</li>
             <li>Jennie Cooper</li>
             <li>Julie Henry</li>
@@ -214,7 +233,7 @@
             <li>Gregory Mccoy</li>
             <li>Marvin Mckinney</li>
         </ul>
-        <ul class="footer__professionals">
+        <ul class="footer__professionals container">
             <li>Annette Steward</li>
             <li>Jennie Cooper</li>
             <li>Julie Henry</li>
@@ -222,7 +241,7 @@
             <li>Gregory Mccoy</li>
             <li>Marvin Mckinney</li>
         </ul>
-        <ul class="footer__professionals">
+        <ul class="footer__professionals container">
             <li>Annette Steward</li>
             <li>Jennie Cooper</li>
             <li>Julie Henry</li>
