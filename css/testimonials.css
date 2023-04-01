@@ -29,12 +29,27 @@
     width: 90%;
 }
 
-/* .testimonials__profile{
-    display: grid;
-    grid-template-rows: 118px;
-} */
 .profile__picture {
     height: 42px;
     width: 42px;
     border-radius: 50%;
+}
+
+.testimonials__profile>img {
+    grid-area: myArea;
+}
+
+.testimonials__profile {
+    display: grid;
+    grid-template-areas: 'myArea' 'myArea';
+    grid-template-columns: 50px 130px;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials__link {
+    width: 276px;
+    line-height: 60px;
+    font-family: 'boldHeebo', sans-serif;
+    margin: 95px auto 100px;
 }

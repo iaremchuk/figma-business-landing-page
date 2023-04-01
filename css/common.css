@@ -18,9 +18,13 @@
     --text-color: #374754;
     --place-holder-color: #18171D;
     --main-background-color:  #FFFFFF;
+    --order-plan-background-color:  #FFFFFF;
     --accent-background-color: #252B42;
     --btn-background-color: #2091F9;
     --pricing-element-background-color: #2091F9;
+    --order-plan-color: #2091F9;
+    --contactus-input-background-color: #F5F5F5;
+    --contactus-input-border-color: #E8E8E8;
     --contacts-border-color: #DDDDDD;
     font-family: 'mainHeebo', sans-serif;
     scroll-behavior: smooth;
