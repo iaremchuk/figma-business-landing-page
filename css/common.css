@@ -1,24 +1,26 @@
 @font-face {
     font-family: mainHeebo;
     src: url(../fonts/Heebo-Thin.ttf);
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: boldHeebo;
     src: url(../fonts/Heebo-Bold.ttf);
-  }
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --main-color: #FFFFFF;
     --headings-color: #252B42;
     --text-color: #374754;
     --place-holder-color: #18171D;
-    --main-background-color:  #FFFFFF;
-    --order-plan-background-color:  #FFFFFF;
+    --main-background-color: #FFFFFF;
+    --order-plan-background-color: #FFFFFF;
     --accent-background-color: #252B42;
     --footer-background-color: #252B42;
     --btn-background-color: #2091F9;
@@ -31,12 +33,12 @@
     scroll-behavior: smooth;
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: auto;
-    border: 1px solid red;
 }
-img{
+
+img {
     display: block;
     width: 100%;
 }

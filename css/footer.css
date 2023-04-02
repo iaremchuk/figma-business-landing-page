@@ -1,9 +1,12 @@
 .footer {
+    background-color: var(--footer-background-color);
+}
+
+.footer__container {
     min-height: 1430px;
     display: grid;
     padding-top: 120px;
     padding-bottom: 130px;
-    background-color: var(--footer-background-color);
     justify-content: center;
     align-items: center;
 }
@@ -20,6 +23,11 @@
 
 .footer__professionals li:first-child {
     font-family: 'boldHeebo', sans-serif;
+}
+
+.footer__contact,
+.footer__social {
+    margin-top: 20px;
 }
 
 .footer__contact {
@@ -51,4 +59,21 @@
 .footer__social {
     display: flex;
     justify-content: space-around;
+}
+
+@media (min-width: 1770px) {
+    .footer__container {
+        min-height: 570px;
+        grid-template-columns: 20% 20% 20% 20%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .footer__social {
+        justify-content: space-between;
+    }
+
+    .footer__details {
+        align-content: center;
+    }
 }

@@ -1,6 +1,5 @@
 .partners {
     min-height: 1060px;
-    border: 1px solid #000;
 }
 
 .partners__title {
@@ -49,4 +48,22 @@
     width: 200px;
     height: 60px;
     margin: 15px auto;
+}
+
+@media (min-width: 1770px) {
+    .partners {
+        min-height: 800px;
+    }
+
+    .partners__title {
+        margin: 130px auto 27px;
+    }
+
+    .partners__content {
+        min-height: 200px;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin-top: 90px;
+        margin-bottom: 80px;
+    }
 }

@@ -1,6 +1,5 @@
 .newsletter {
     min-height: 1105px;
-    border: 1px solid #000;
 }
 
 .newsletter__heading,
@@ -82,4 +81,76 @@
     background: var(--btn-background-color);
     color: var(--main-color);
     border: none;
+}
+
+@media (min-width: 1770px) {
+    .newsletter__heading {
+        grid-area: heading;
+        text-align: start;
+        margin: 0;
+        align-self: flex-end;
+    }
+
+    .newsletter__title {
+        grid-area: title;
+        text-align: start;
+        margin: 0;
+    }
+
+    .newsletter__description {
+        grid-area: description;
+        text-align: start;
+        margin: 0;
+    }
+
+    .newsletter__subscribtion {
+        grid-area: form;
+        margin: 0;
+    }
+
+    .newsletter__image {
+        grid-area: image;
+        margin: 0;
+    }
+
+    .newsletter {
+        display: grid;
+        grid-template-areas:
+            'image heading'
+            'image title'
+            'image description'
+            'image form';
+        grid-template-columns: 60% 40%;
+        grid-row-gap: 10px;
+        grid-template-rows: 30% 8% 12% 20%;
+        min-height: 690px;
+    }
+
+    .subscribtion__title {
+        margin: 0;
+        text-align: left;
+    }
+
+    .subscribtion__exclusive {
+        text-align: left;
+        margin: 0;
+    }
+
+    .subscribtion__subscribe {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        height: 75px;
+        margin: 0;
+        align-items: end;
+    }
+
+    .subscribtion__email {
+        width: 273px;
+        height: 54px;
+    }
+
+    .subscribtion__button {
+        width: 172px;
+        height: 58px;
+    }
 }

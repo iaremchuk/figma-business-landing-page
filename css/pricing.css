@@ -99,3 +99,22 @@
     background-color: var(--order-plan-background-color);
     color: var(--order-plan-color);
 }
+
+@media (min-width: 1770px) {
+    .pricing {
+        min-height: 1150px;
+    }
+
+    .pricing__options {
+        flex-flow: row nowrap;
+        min-height: 690px;
+    }
+
+    .pricing__options .pricing__plan:nth-child(2) {
+        height: 690px;
+    }
+
+    .pricing__plan {
+        width: 30%;
+    }
+}
